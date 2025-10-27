@@ -125,8 +125,3 @@ MIT License - see LICENSE file for details
 ## Author
 
 Developed by [lgcosmo](https://github.com/lgcosmo)
-
-## Acknowledgments
-
-Built with [Manus](https://manus.im) - AI-powered development platform
-
