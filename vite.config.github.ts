@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 // Simplified config for GitHub Pages deployment
 // Replace 'lotka-volterra-simulator' with your actual repository name
 export default defineConfig({
-  base: '/lotka-volterra-simulator/',
+  base: '/hazard_islands/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
