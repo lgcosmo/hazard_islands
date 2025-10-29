@@ -84,12 +84,15 @@ This project is configured for automatic deployment to GitHub Pages via GitHub A
 
 Every push to the `main` branch triggers a build and deployment.
 
+**Note:** The application uses hash-based routing (URLs with `#`) for GitHub Pages compatibility. This ensures the app works correctly when accessed directly via URL.
+
 ## Technology Stack
 
 - **React 19** - UI framework
 - **TypeScript** - Type safety
 - **Vite** - Build tool
 - **Tailwind CSS 4** - Styling
+- **Wouter** - Lightweight routing with hash location support
 - **Canvas API** - Visualizations
 - **RK4 ODE Solver** - Numerical integration
 
@@ -125,3 +128,8 @@ MIT License - see LICENSE file for details
 ## Author
 
 Developed by [lgcosmo](https://github.com/lgcosmo)
+
+## Acknowledgments
+
+Built with [Manus](https://manus.im) - AI-powered development platform
+
