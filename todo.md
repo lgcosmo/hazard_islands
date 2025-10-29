@@ -21,3 +21,8 @@
 - [ ] Add ability to save/load simulation states
 - [ ] Add more detailed statistics panel
 
+
+
+## Bugs
+- [x] Fix stack overflow error when using custom CSV networks (works fine with default network)
+

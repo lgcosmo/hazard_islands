@@ -123,7 +123,7 @@ export default function Home() {
     setHistory(state.history);
     setHurricanes(state.hurricanes);
     setExtinctSpecies(state.extinctSpecies);
-  }, [params, useCustomNetwork, customNetwork, networkVersion]);
+  }, [params, useCustomNetwork, networkVersion]); // customNetwork removed - tracked by networkVersion
 
   // Initialize on mount and when key parameters change
   useEffect(() => {
