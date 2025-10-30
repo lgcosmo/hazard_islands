@@ -17,12 +17,12 @@ export default function Home() {
     dispersalStrength: 0.5,
     competitionStrength: -0.1,
     halfSaturation: 0.5,
-    hurricaneRate: 0.05,
-    cat1Prob: 0.6,
+    hurricaneRate: 0.30,
+    cat1Prob: 0.4,
     cat1Damage: 0.1,
     cat2Prob: 0.3,
     cat2Damage: 0.5,
-    cat3Prob: 0.1,
+    cat3Prob: 0.3,
     cat3Damage: 0.8,
     simulationSpeed: 1.0
   });
